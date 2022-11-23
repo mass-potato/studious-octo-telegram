@@ -1,0 +1,119 @@
+body { 
+    margin: 0; padding: 0;
+    background-image: url(https://media.tenor.com/HDXIhTFsQDEAAAAC/kayne-west-selfie.gif);
+    background-size: 33.333333% 50%;
+
+}
+/*formating to keep headder on top and slyles*/
+header{
+    width: 100%;
+    background-color: burlywood;
+    font-family: Arial;
+    font-size: 500%;
+    text-align: center;
+    color: grey;
+    margin: 0px;
+    position: fixed;
+    z-index: 4;
+    height: 200px;
+}
+/*table formating*/
+td{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    
+    display: inline-table;
+    position: relative;
+    top: 205px;
+    z-index: 1;
+    margin: 0px;
+    margin-top: -2;
+    background-color: white;
+}
+table{
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*image alignment and sources */
+
+    .lg {
+        background-image: url("https://www.kickbulk.co/image/cache/catalog/ADDIDAS/YEEZY-750/B35309/ADIDAS-YEEZY-750-BOOST-KANYE-WEST-GREY-B35309-1-1200x1200.jpg");
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+
+    
+    }
+    .ng{
+        background-image: url("https://joyyd.com/ossimg/sh20220602100857646/20220603/a80e6029e5be48c9b7a32099319e0a4b.jpg");
+        background-size: 190px 135px;
+        background-position: -25px;
+        background-repeat: no-repeat;
+    }
+    .cg{
+        background-image: url("https://cdn.shopify.com/s/files/1/0020/8155/4531/products/B75571_1b001080-8a09-419f-b68f-e193c0d20d4f_600x.png?v=1662360645");
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+    }
+    .ln{
+        background-image: url("https://cdn.shopify.com/s/files/1/2482/7148/products/calabases.jpg?v=1650909527");
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+
+
+    }
+    .tn{
+        background-image: url("https://images.stockx.com/images/adidas-Yeezy-Boost-350-V2-Pure-Oat-Product.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1648503664&q=75");
+        background-size: 100% 66%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        border-color: beige;
+        z-index: 3;
+    }
+    .cn{
+        background-image: url("https://www.kicksatlantis.com/wp-content/uploads/2019/11/kanye-west-yeezy-chalk-thick-shaggy-suede-crepe-sneaker-km5001-037-profile1.jpeg");
+        background-size: 100% 66%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .le{
+        background-image: url("https://media.gq.com/photos/6104509867eec38a30cf2a29/master/w_1280%2Cc_limit/Yeezy-450-sneakers.jpg");
+        background-size: 100% 66%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-color: darkgreen;
+    }
+    .ne{
+        background-image: url("https://cdn.flightclub.com/750/TEMPLATE/172105/1.jpg");
+        background-size: 100% 66%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-color: darkmagenta;
+        z-index: 2;
+    }
+    .ce{
+        background-image: url("https://sneakernews.com/wp-content/uploads/2021/03/adidas-yeezy-foam-runner-sand-relaese-date.jpg");
+        background-size: 150px 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-color: darkred;
+    }
+/*^^^all of table format^^^*/
+img{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    position: relative;
+    top: 200px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    z-index: 6;
+
+}
